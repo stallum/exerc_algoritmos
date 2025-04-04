@@ -14,6 +14,9 @@ if lado1 + lado2 > lado3 and lado1 + lado3 > lado2 and lado2 + lado3 > lado1:
         if lado1 == lado2 or lado1 == lado3 or lado2 == lado3:
             print('Triângulo isósceles')
         else:
-            print('Triângulo escaleno')
+            if lado1 != lado2 and lado2 != lado3 and lado3 != lado1:
+                print('Triângulo escaleno')
+    if lado1**2 == lado2**2 + lado3**2 or lado1**2 + lado2**2 == lado3**2 or lado2**2 == lado1**2 + lado3**2:
+        print('Trinagulo Retângulo')
 else:
     print('Não é um triângulo válido')
