@@ -1,1 +1,4 @@
-# Faça um Programa que peça dois números e imprima a soma. 
+# soma de dois números
+n1 = float(input('Digite um número: '))
+n2 = float(input('Digite outro número: '))
+print(f'A soma dos números é: {n1 + n2:.2f}')

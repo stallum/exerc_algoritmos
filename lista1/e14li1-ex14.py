@@ -1,1 +1,5 @@
-# Escrever um algoritmo para determinar o consumo médio de um automóvel sendo fornecida a distância total percorrida pelo automóvel e o total de combustível gasto.
+# consumo de um carro
+
+distancia = float(input('Insira a distância percorrida pelo veículo. (ps.: apenas numeros em km): '))
+litrosGastos = float(input('Insira a quantidade de combustível usado no trajeto: '))
+print(f'o consumo do seu veículo foi de: {distancia / litrosGastos}km/L')
