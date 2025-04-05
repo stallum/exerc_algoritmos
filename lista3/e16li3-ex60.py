@@ -10,8 +10,8 @@ print(b)
 
 for i in range(2, n):
     if i % 2 == 0:
-        c = a - b
-    else:
         c = a + b
+    else:
+        c = a - b
     print(c)
     a, b = b, c
