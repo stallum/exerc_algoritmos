@@ -150,7 +150,7 @@ itens_pedido = []
 
 print(cardapio_df)
 while pedido == 0:
-    codigo = input('Digite o código de um produto de nosso cardápio: (ou zero, caso queira terminar o pedido)')
+    codigo = input('Digite o código de um produto de nosso cardápio: (ou zero "0", caso queira terminar o pedido)')
     
     if int(codigo) == 0:
         pedido += 1
