@@ -6,5 +6,11 @@ for i in range(12):
     while temperatura.isalpha() or float(temperatura) < 0:
         temperatura = input(f'\033[1;31mERRO, Digite uma média de temperatura válida: ')
     temperatura = float(temperatura)
+    temperaturas.append(temperatura)
 
+mediaAnual = sum(temperaturas) / len(temperaturas)
+
+for i in range(len(temperaturas)):
+    if temperaturas[i] > mediaAnual:
+      print(f'A temperatura foi: {temperaturas[i]} no mês {meses[i]}')
     

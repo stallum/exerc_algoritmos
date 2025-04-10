@@ -6,7 +6,7 @@ matriz = []
 for i in range(4):
     linha = []
     for j in range(4):
-        valor = input(f"Digite o valor para a posição [{i}][{j}]: ")
+        valor = input(f'Digite o valor para a posição [{i}][{j}]: ')
         while valor.isalpha():
             valor = input('o valor digitado é inválido, digite um valor numerico: ')
         valor = float(valor)

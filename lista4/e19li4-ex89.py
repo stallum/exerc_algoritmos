@@ -6,6 +6,8 @@ for i in range(5):
     linha = []
     for j in range(5):
         valor = input(f'Digite o valor para a posição [{i}][{j}]: ')
+        linha.append(valor)
+    matriz.append(linha)
 
 for i in range(len(matriz)):
     for j in range(len(matriz[i])):
